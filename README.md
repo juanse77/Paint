@@ -51,7 +51,7 @@ if (mouseX > 415 && mouseX < 785 && mouseY > 40 && mouseY < 80) {
 
 <h3>El proceso de pintado del lienzo</h3>
 
-<p>Esta vez la lógica de la funcionalidad se reparte entre tres eventos de ratón: mouseDragged, mousePressed, mouseReleased; y el método 'dibujaLienzo' que se llamará desde el método 'draw' y que será el que utilice los valores recogidos por los eventos del ratón.</p>
+<p>Esta vez la lógica de la funcionalidad se reparte entre dos eventos de ratón: mouseDragged, mouseReleased; y el método 'dibujaLienzo' que se llamará desde el método 'draw' y que será el que utilice los valores recogidos por los eventos del ratón.</p>
 
 <p>MouseDragged se encarga de ir almacenando los puntos del trazo en un array dinámico llamado 'trazo'. Cada punto del trazo contendrá la información del punto en el que se detectó, el grosor y el color del pincel en el momento de la detección, y el valor de un contador llamado 'numTrazo' que se utilizará para la funcionalidad de borrar el último trazo de los que se vayan apilado.</p>
 
@@ -73,15 +73,10 @@ function mouseDragged() {
   }
 }
 
-function mousePressed() {
-  if (mouseY > 95) {
-    numPuntosNuevos = 0;
-  }
-}
-
 function mouseReleased() {
   if (numPuntosNuevos > 0) {
     numTrazo++;
+    numPuntosNuevos = 0;
   }
 }
 ```
