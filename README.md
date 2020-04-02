@@ -2,9 +2,6 @@
 
 <p>El siguiente proyecto consiste en la recreación de un paint sencillo codificado en P5*js. En este paint se podrá: cambiar el grosor del pincel; cambiar el color del pincel; cambiar el color de fondo; limpiar el último trazo dado en el lienzo; limpiar por completo el lienzo.</p>
 
-<p>Link a la aplicación:</p>
-- [Paint](https://editor.p5js.org/juanse77/present/hBz8EHCeR/)
-
 <h2>Detalles de implementación:</h2>
 
 <p>Para la interacción del usuario se ha creado dos componentes. Uno para la selección de los colores, tanto del pincel como del fondo, y el otro para la elección del grosor del pincel.</p>
@@ -138,6 +135,7 @@ function borraTrazo() {
 
 <p>Referencias a los recursos utilizados:</p>
 
+- Link a la aplicación: [Paint](https://editor.p5js.org/juanse77/present/hBz8EHCeR). 
 - Modesto Fernando Castrillón Santana, José Daniel Hernández Sosa: [Creando Interfaces de Usuario. Guion de Prácticas](https://cv-aep.ulpgc.es/cv/ulpgctp20/pluginfile.php/126724/mod_resource/content/25/CIU_Pr_cticas.pdf).
 - [Página de inicio del framework P5.js](https://p5js.org/).
 - [Referencia de la librería P5.js](https://p5js.org/reference/). 
