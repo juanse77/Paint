@@ -2,7 +2,7 @@
 
 <p>El siguiente proyecto consiste en la recreación de un paint sencillo codificado en P5*js. En este paint se podrá: cambiar el grosor del pincel; cambiar el color del pincel; cambiar el color de fondo; limpiar el último trazo dado en el lienzo; limpiar por completo el lienzo.</p>
 
-<p>Link a la aplicación:</p> [Paint](https://editor.p5js.org/juanse77/present/hBz8EHCeR)
+<p>Link a la aplicación:</p> [Paint](https://editor.p5js.org/juanse77/present/hBz8EHCeR/)
 
 <h2>Detalles de implementación:</h2>
 
