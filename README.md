@@ -17,7 +17,7 @@
 
 <h3>Elección del color del pincel y del fondo:</h3>
 
-<p>El color del pincel o del fondo se selecciona haciendo click en alguno de los cuadrados de color de la rejilla. La lógica para esta funcionalidad se centra en el evento mouseClicked. Los colores que se visulizan en la rejilla están almacenados en el array 'colores' y los colores activados en cada momento se guarda en las variables 'indexColorP' y 'indexColorBG', que almacenarán el valor del índice que apunte al color dentro del array 'colores'.</p>
+<p>El color del pincel o del fondo se selecciona haciendo click en alguno de los cuadrados de color de la rejilla. La lógica para esta funcionalidad se centra en el evento mouseClicked. Los colores que se visulizan en la rejilla están almacenados en el array 'colores' y los colores activados en cada momento se guardan en las variables 'indexColorP' y 'indexColorBG', que almacenarán el valor del índice que apunte al color dentro del array 'colores'.</p>
 
 ```java
 [...]
@@ -112,7 +112,7 @@ function dibujaLienzo() {
 
 <h3>Borrado del último trazo:</h3>
 
-<p>Esta funcionalidad se activa al pulsar la tecla (d). Su lógica se desarrolla en el método 'borraTrazo'. Para detectar el trazo que se debe borrar se irá recorriendo inversamente el array 'trazo' hasta que se encuentre un valor de 'numTrazo' distinto. Cuando esto suceda se tomará como nuevo array de trazos a el subarray de 'trazo' sin los puntos superiores a la posición calculada.</p>
+<p>Esta funcionalidad se activa al pulsar la tecla (d). Su lógica se desarrolla en el método 'borraTrazo'. Para detectar el trazo que se debe borrar se irá recorriendo inversamente el array 'trazo' hasta que se encuentre un valor de 'numTrazo' distinto. Cuando esto suceda se tomará como nuevo array de trazos al subarray de 'trazo' sin los puntos superiores a la posición calculada.</p>
 
 ```java
 function borraTrazo() {
